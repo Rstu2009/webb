@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Restu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: white;
+    }
+
+    .header {
+      position: relative;
+      background-image: url('luffy.jpg'); /* Ganti dengan gambar kamu */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: white;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .header::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0, 0, 0, 0.4); /* Lapisan hitam transparan */
+      z-index: 1;
+    }
+
+    .header * {
+      position: relative;
+      z-index: 2;
+    }
+
+    .desc-box {
+      margin: 20px auto;
+      background-color: #ccc;
+      padding: 15px;
+      border-radius: 15px;
+      width: fit-content;
+      color: black;
+    }
+
+    .social-btn2 {
+      margin: 20px auto;
+      background-color: #999;
+      padding: 15px 25px;
+      border-radius: 15px;
+      display: block;
+      font-weight: bold;
+      cursor: pointer;
+      color: black;
+      width: fit-content;
+    }
+
+    .social-btn {
+      margin: 20px auto;
+      background-color: #999;
+      padding: 15px 25px;
+      border-radius: 15px;
+      display: inline-block;
+      font-weight: bold;
+      cursor: pointer;
+      color: black;
+    }
+
+    .icon-buttons {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+      gap: 40px;
+    }
+
+    .icon-button {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: black;
+      color: white;
+      width: 70px;
+      height: 70px;
+      justify-content: center;
+      border-radius: 15px;
+      font-weight: bold;
+    }
+
+    .icon-button img {
+      width: 24px;
+      height: 24px;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Restu</h1>
+    <h2>Halo!</h2>
+    <p>Ini adalah web buatan saya sendiri 😁</p>
+  </div>
+
+  <div class="desc-box">
+    Tujuan saya membuat Website ini karena saya gabut 😹😹
+  </div>
+
+  <!-- Letakkan sebelum bagian Social Media Saya -->
+<div style="margin-top: 30px; text-align: center;">
+    <h2>Tentang Saya</h2>
+    <p style="max-width: 600px; margin: auto; font-size: 1.1rem;">
+      Halo! Saya Restu, seorang pemuda yang suka banget main game dan sedang belajar ngoding. 
+      Website ini saya buat karena iseng dan pengin belajar lebih banyak soal dunia web. 
+      Kadang ngoding, kadang main game sampai lupa waktu 😄
+      </p>
+      <p style="max-width: 600px; margin: auto; font-size: 1.1rem;">
+      Saya belajar ngoding biasanya dari youtube dan beberapa vidio yang ada di tiktok.
+    </p>
+
+  </div>
+
+  <div style="margin-top: 30px; text-align: center;">
+    <h2>Proyek Yang Pernah Saya Buat</h2>
+    <p style="max-width: 600px; margin: auto; font-size: 1.1rem;">
+       Bot Whatsapp,Website (baru dua)
+      </p>
+    </div>
+
+  <div style="margin-top: 30px; text-align: center;">
+    <h2>Tools Yang Saya Pakai Adalah</h2>
+    <p style="max-width: 600px; margin: auto; font-size: 1.1rem;">
+       VS Code
+      </p>
+    </div>
+
+    <div class="social-btn2">
+        <a href="Apa yang Sedang Saya Kerjakan.html" class="social-btn2" style="color: black; text-decoration: none;">
+        Apa yang Sedang Saya Kerjakan</a>
+      </div>
+
+  <div class="social-btn">
+    Social Media Saya
+  </div>
+
+  <div class="icon-buttons">
+    <a href="https://instagram.com/rssstu_a" target="_blank" style="text-decoration: none;">
+      <div class="icon-button">
+        <img src="instagram.jpg" alt="Instagram" />
+        IG
+      </div>
+    </a>
+    <a href="https://tiktok.com/@rssstu_" target="_blank" style="text-decoration: none;">
+      <div class="icon-button">
+        <img src="tiktok.jpg" alt="TikTok" />
+        TikTok
+      </div>
+    </a>
+  </div>
+
+  <div class="social-btn">
+    Mungkin Hanya Segini Saja Website Buatan Saya, Terimakasih Sudah Berkunjung😎😜
+  </div>
+  
+
+</body>
+</html>
